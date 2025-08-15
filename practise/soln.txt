@@ -1,0 +1,63 @@
+🔍 grep Practice
+
+Q1: Find all lines containing ERROR in app.log
+
+grep -n "ERROR" app.log
+
+
+Q2: Find lines containing error (case-insensitive)
+
+grep -in "error" app.log
+
+
+Q3: Find all lines NOT containing INFO
+
+grep -v "INFO" app.log
+
+🧮 awk Practice
+
+Q4: Print only the names from users.txt
+
+awk '{print $1}' users.txt
+
+
+Q5: Print names of users older than 30
+
+awk '$2 > 30 {print $1}' users.txt
+
+
+Q6: Print names and salaries of employees earning more than 60000 (skip header)
+
+awk -F, '$3 > 60000 && NR > 1 { print $2, $3 }' data.csv
+
+✂️ sed Practice
+
+Q7: Replace "ERROR" with "FAIL" in each line (without modifying file)
+
+sed 's/ERROR/FAIL/g' app.log
+
+
+Q8: Delete the first 3 lines of notes.txt
+
+sed '1,3d' notes.txt
+
+
+Q9: Insert "Project notes" at the beginning of notes.txt
+
+sed '1iProject notes' notes.txt
+
+🗂️ find Practice
+
+Q10: Find all .log files modified in the last 7 days
+
+find /home/user/temp -name "*.log" -mtime -7
+
+
+Q11: Find and delete all .tmp files
+
+find /home/user/temp -name "*.tmp" -type f -delete
+
+
+Q12: Find files larger than 10MB and show their paths
+
+find /home/user/temp -type f -size +10M -exec ls -lh {} \;

@@ -1,0 +1,6 @@
+Line 1: Meeting notes
+Line 2: Discuss project timeline
+Line 3: Assign tasks
+Line 4: Set deadlines
+Line 5: Review budget
+Line 6: Plan next steps

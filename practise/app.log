@@ -1,0 +1,6 @@
+2025-08-15 10:00:01 INFO Starting application
+2025-08-15 10:01:15 ERROR Failed to connect to database
+2025-08-15 10:02:23 INFO User logged in
+2025-08-15 10:03:00 WARNING Low disk space
+2025-08-15 10:04:05 ERROR Timeout while querying API
+2025-08-15 10:05:30 INFO Application stopped
