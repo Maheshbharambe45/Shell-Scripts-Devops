@@ -1,6 +1,7 @@
 #!/bin/bash
 read -p "enter the file name :" filename
 touch $filename
+echo "#!/bin/bash" > $filename
 echo "File created sucessfully"
 curr_dir=$(pwd)
 permission=$(find "$curr_dir" -type f -name "$filename")
