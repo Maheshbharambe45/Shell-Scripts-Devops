@@ -1,9 +1,9 @@
 #!/bin/bash
 
-read -p "Enter the number"  number
+num=1
 
-if [ $((number%2)) -eq 0 ];then
-    echo "even"
-else
-    echo "odd"
-fi
+while [ $num -le 10 ];
+do
+echo "hie"
+num=$((num+1))
+done
