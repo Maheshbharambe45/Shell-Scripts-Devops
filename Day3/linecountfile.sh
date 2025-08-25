@@ -1,8 +1,7 @@
 #!/bin/bash
 
-function filecount(){
-    read -p "Enter the filename : " filename
-    wc -l $filename 
+function countfiles(){
+    find . -type f -name "*" | wc -l
 }
 
-filecount
+countfiles
