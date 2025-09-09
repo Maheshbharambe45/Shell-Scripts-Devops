@@ -1,7 +1,12 @@
 #!/bin/bash
 
-function showGroup(){
-    read -p "Enter username : " uname
-    sudo groups $uname
+function countfiles(){
+   read -p "Enter the filename" file
+   if [ -e $file ]; then
+    echo "File exists"
+    else
+    echo "File does exists"
+    fi
 }
-showGroup
+
+countfiles
