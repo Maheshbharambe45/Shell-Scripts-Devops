@@ -1,9 +1,9 @@
 #!/bin/bash
 
-domain=""
+input=""
 
-while [[ $domain != "google.com" ]]
-do 
-read -p "enter the domain : " domain
+while [[ "$input" != "yes" ]]
+do
+read -p "press yes to enter : " input
 done
-echo "done congratulations"
+echo "----------- you are logged in ----------------"

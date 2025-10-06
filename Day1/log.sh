@@ -1,3 +1,3 @@
 #!/bin/bash
 
-ls -l *.log
+ls -l  *.sh
