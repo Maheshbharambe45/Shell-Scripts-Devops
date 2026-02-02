@@ -1,4 +1,18 @@
 #!/bin/bash
 
-name=$(whoami) #dont add on space between it
-echo "Hello $name happy to see you.. "
+echo "Hello World 😎"
+echo "Happy to see you growing 🤭"
+
+echo "
+Mahesh
+Dnyandeo
+Bharambe
+to check multiline echo
+"
+
+echo "
+Sagar \
+Dnyandeo \
+Bharambe \
+to check multiline echo \
+"
